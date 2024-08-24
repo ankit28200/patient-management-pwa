@@ -1,0 +1,50 @@
+form.css /* src/components/Form.css */
+/* src/components/Form.css */
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form input,
+  .form select,
+  .form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .form input[type="file"] {
+    padding: 0;
+  }
+  
+  .form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .form button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  .form select {
+    background-color: #f8f9fa;
+  }
